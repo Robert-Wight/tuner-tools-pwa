@@ -1,0 +1,69 @@
+/* This centers the SVG and the modal */
+.timing-diagram-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    /* Or however wide you want it */
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* This is the "modal" overlay that darkens the background */
+.details-modal {
+    position: fixed;
+    /* Stays in place even when scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* This is the white content box in the middle */
+.details-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* This is the "X" close button */
+.details-content .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #888;
+}
+
+.details-content h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.details-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.details-content a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

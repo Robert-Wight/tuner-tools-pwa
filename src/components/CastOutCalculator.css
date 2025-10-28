@@ -1,0 +1,89 @@
+/* Basic container for this specific calculator */
+.cast-out-container {
+    border: 1px solid #555;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Grouping for mode selection */
+.mode-selection {
+    border: 1px solid #444;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.mode-selection legend {
+    padding: 0 10px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.radio-option input {
+    margin-right: 10px;
+}
+
+/* General message styles */
+.message {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.message-error {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #c62828;
+}
+
+.message-warning {
+    background-color: #fffde7;
+    color: #f57f17;
+    border: 1px solid #f57f17;
+}
+
+/* Results table styling */
+.results-table {
+    width: 100%;
+    overflow-x: auto;
+    /* Allow horizontal scrolling on small screens */
+    margin-top: 20px;
+}
+
+.results-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: left;
+}
+
+.results-table th {
+    background-color: #333;
+}
+
+/* Summary text */
+.results-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+}
+
+.results-summary p {
+    margin: 5px 0;
+}
+
+.results-summary strong {
+    color: #aaa;
+}
