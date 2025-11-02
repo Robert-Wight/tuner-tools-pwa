@@ -27,8 +27,7 @@ const timingPoints = [
     {
         degree: 196,
         title: '196° Left rapier opening',
-        description:
-            'This is the checking point for the left rapier opening. You should check A, B, and C to ensure correct operation.',
+        description: 'This is the checking point for the left rapier opening. You should check A, B, and C to ensure correct operation.',
         manualLink: '/P1.pdf#page=12', // Example link to page 12
     },
     {

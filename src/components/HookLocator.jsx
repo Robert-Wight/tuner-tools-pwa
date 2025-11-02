@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './HookLocator.css'; // We will create this next
 
-// --- 1. Loom Configuration Data (Ported from your HTML) ---
+// --- 1. Loom Configuration Data  ---
 // This is placed outside the component so it's not recreated on every render
 const loomConfigs = {
     'Loom 10': {
@@ -23,10 +23,10 @@ const loomConfigs = {
         ],
     },
     // --- Add other looms here as needed ---
-    'Loom 4': { isPlaceholder: true },
+    'Loom 4': { isPlaceholder: true }, // startHook:
 };
 
-// --- 2. Helper Functions (Ported from your HTML) ---
+// --- 2. Helper Functions  ---
 // These are defined outside the component as they don't depend on state
 function parseBoardStringV9(dataString, totalRows) {
     const rowCounts = [];
