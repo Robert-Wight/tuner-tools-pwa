@@ -1,16 +1,49 @@
-# React + Vite
+# 🚀 Tuner Tools Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Progressive Web App (PWA) built to provide specialized calculators, data repositories, and technical manuals for professional loom tuners. It's built with modern web technologies (React, Vite, Tailwind CSS) to be fast, reliable, and usable offline.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Features Implemented
 
-## React Compiler
+This app is a collection of single-page tools, all accessible from a central main menu.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Main Menu:** A responsive, grid-based navigation system to access all tools.
+* **Reed Length Calculator:** Calculates reed width based on ends in reed, reed number, and ends in split.
+* **Cast Out Calculator:** A complex calculator with two modes (Simple Sum & Pattern) to map a cast out, including support for alignment rules and 'x'/'o' hook patterns.
+* **Jacquard Hook Locator:** A data-driven tool to find the absolute harness hook number based on its physical location (Loom, Comber Board, Row, and Position).
+* **Loom Timing Diagram:** An interactive SVG-based diagram that shows loom timing events at specific degrees, with clickable pop-up details.
+* **Loom Data Repository:** A two-screen data viewer to select any loom configuration and see its detailed technical specifications.
+* **Manual Library:** A simple list that links to technical PDF manuals, opening them in a new tab.
+* **Glossary of Terms:** An interactive accordion list of common industry terms and their definitions.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Tech Stack
+
+* **Framework:** [React](https://react.dev/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) (utility-first CSS)
+* **Version Control:** [Git](https://git-scm.com/) & [GitHub](https://github.com)
+
+---
+
+## ⚙️ How to Run This Project Locally
+
+1.  **Clone the repository** (or ensure you are in the project folder):
+    ```bash
+    git clone [https://github.com/your-username/tuner-tools-pwa.git](https://github.com/your-username/tuner-tools-pwa.git)
+    cd tuner-tools-pwa
+    ```
+
+2.  **Install all packages:**
+    (If you get an error, you may be in a nested folder. Make sure you are in the folder with `package.json` in it.)
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    The app will now be running on [http://localhost:5173](http://localhost:5173).
